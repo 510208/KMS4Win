@@ -93,6 +93,10 @@ Attribute VB_Exposed = False
 
 Option Explicit
 
+Private Sub CancelButton_Click()
+    Me.Hide
+End Sub
+
 Private Sub OKButton_Click()
 If Option1(1).Value = True Then
     Shell "cmd.exe /c start " & "KMS.bat"

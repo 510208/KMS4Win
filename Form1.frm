@@ -169,7 +169,6 @@ Command1.ToolTipText = "請先啟用軟體"
 MsgBox "請先啟用軟體", 48, "啟用"
 Shell "cmd.exe /c start " & "https://www.youtube.com/channel/UC6orwHdQNVzwHsA6M7HYD9g"
 Shell "cmd.exe /c start " & "https://510208web.lionfree.net/"
-frmLogin.Show
 End Sub
 
 Private Sub Form_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
